@@ -1,0 +1,124 @@
+body{
+    height: 100%;
+}
+
+  @media only screen and (max-width: 375px) {
+    .card {
+        display: inline-block;
+        line-height: 30px;
+        width: 100%;
+        text-align: center;
+        background-color: steelblue;
+        color: #fff;
+        border-radius: 4px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        justify-content: center;
+        font-weight: bold;
+      }
+  }
+
+  /* @media only screen and (max-width: 780px) { */
+.card {
+    display: inline-block;
+    line-height: 30px;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    height: 250px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+.card:nth-child(1) {
+    background:#6F98A8;
+  }
+  .card:nth-child(2) {
+    background:#6F98A8;
+  }
+  .card:nth-child(3) {
+    background:  #2B8EAD;
+  }
+  .card:nth-child(4) {
+    background: #2F454E;
+  }
+
+  .card:nth-child(5) {
+    background: #2B8EAD;
+  }
+  .card:nth-child(6) {
+    background : #2F454E;
+  }
+
+  .card:nth-child(7) {
+    background:#BFBFBF;
+  }
+  .card:nth-child(8) {
+    background: #BFBFBF;
+  }
+
+  .card:nth-child(9) {
+    background:#6F98A8;
+  }
+  .card:nth-child(10) {
+    background : #2F454E;
+  }
+  .card {
+    max-width: 360px;
+  }
+
+  .shuffle{
+    height: 100%;
+    position: fixed;
+  }
+  #main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.sidebar    {
+    width: 75%;
+    height: 800px;
+    background: #EFEFEF;
+    float: left;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#page-wrap  {
+    background: #EFEFEF;
+    margin-top: 10px;
+    float: right;
+    width: 10%;
+}
+
+
+.block{
+    width: 100%;
+    margin: 5%;
+    display: flex;
+}
+.button {
+    margin-top: 10px;
+    background: #6F98A8;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
